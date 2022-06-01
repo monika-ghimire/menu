@@ -1,0 +1,131 @@
+.header
+{
+  background: gainsboro;
+  border:2px solid gray;
+  text-align: center;
+  font-size:50px;
+ 
+}
+.header:hover
+
+{
+  background-color: aqua;
+}
+
+
+/* here navbar style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    
+    background-color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .navbar a {
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+   
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* here contentHolder style */
+  .contentHolder
+{
+  border: 2px solid gray;
+}
+  .contentHolder ul{
+    display:flex;
+  }
+
+  .contentHolder li 
+{
+background-color: gainsboro;
+border:2px solid gray;
+text-align: center;
+list-style: none;
+}
+.right
+{
+  height:200px;
+  width:50%;
+margin-right:20px;
+}
+.center
+{
+  height:200px;
+  width:100%;
+  margin-right:10px;
+}
+.left
+{
+  height:200px;
+  width:20%;
+  margin-right:50px;
+
+}
+.contentHolder li:hover
+{
+  background-color: aqua;
+  border-radius:5%;
+}
+/* here footer style */
+.footer
+{
+  background: gainsboro;
+  border:2px solid gray;
+  text-align: center;
+  font-size:30px;
+}
+.footer:hover
+
+{
+  background-color: aqua;
+}
