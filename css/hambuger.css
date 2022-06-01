@@ -1,0 +1,82 @@
+
+  .bugerMenu {
+    width: 480px;
+    margin: auto;
+    background-color: #555;
+    
+    color:gainsboro;
+    
+  }
+  
+  .topnav {
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: rgb(250, 246, 246);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(182, 8, 8);
+    color:white;
+  }
+  
+ /* here for contener */
+ .contentHolder
+ {
+   border: 2px solid gray;
+ }
+   .contentHolder ul{
+     display:flex;
+   }
+ 
+   .contentHolder li 
+ {
+ background-color: rgb(46, 248, 251);
+ border:2px solid rgb(128, 128, 128);
+ text-align: center;
+ list-style: none;
+ height:400px;
+ }
+ .right
+ {
+   
+   width:50%;
+ margin-right:20px;
+ }
+ .center
+ {
+ 
+   width:100%;
+   margin-right:10px;
+ }
+ .left
+ {
+   
+   width:20%;
+   margin-right:50px;
+ 
+ }
+ .contentHolder li:hover
+ {
+   background-color: rgb(210, 246, 246);
+   cursor:pointer;
+ }
+
