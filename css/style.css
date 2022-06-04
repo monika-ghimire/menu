@@ -1,6 +1,6 @@
 .header
 {
-  background: rgb(95, 232, 227);
+  background: rgb(238, 238, 238);
   border:2px solid gray;
   text-align: center;
   font-size:50px;
@@ -87,7 +87,7 @@ body {
 
   .contentHolder li 
 {
-  background: rgb(48, 227, 251);
+  background: rgb(208, 209, 209);
 border:2px solid gray;
 text-align: center;
 list-style: none;
